@@ -1,0 +1,44 @@
+all: \
+	iso/menu/menu.arc \
+	iso/menu/loading.tim \
+	iso/font/boldfont.tim \
+	iso/font/arial.tim \
+	iso/stage/hud0.tim \
+	iso/stage/hud1.tim \
+	iso/bf/main.arc \
+	iso/bf/dead.arc \
+	iso/cuphead/main.arc \
+    iso/sans/main.arc \
+	iso/week1/back.arc \
+	iso/week2/back.arc \
+	iso/week3/back.arc 
+
+iso/%.tim: iso/%.png
+	tools/funkintimconv/funkintimconv $@ $<
+
+iso/%.arc:
+	tools/funkinarcpak/funkinarcpak $@ $^
+
+# Menu
+iso/menu/menu.arc: iso/menu/back.tim iso/menu/ng.tim iso/menu/story.tim iso/menu/title.tim
+
+# BF
+iso/bf/main.arc: iso/bf/bf0.tim iso/bf/bf1.tim iso/bf/bf2.tim iso/bf/bf3.tim iso/bf/bf4.tim iso/bf/bf5.tim iso/bf/bf6.tim iso/bf/dead0.tim
+iso/bf/dead.arc: iso/bf/dead1.tim iso/bf/dead2.tim iso/bf/retry.tim
+
+iso/bfsans/main.arc: iso/bfsans/bf0.tim iso/bfsans/bf1.tim iso/bfsans/bf2.tim iso/bfsans/bf3.tim iso/bfsans/bf4.tim iso/bfsans/bf5.tim iso/bfsans/bf6.tim iso/bfsans/dead0.tim iso/bfsans/bfb0.tim iso/bfsans/bfb1.tim iso/bfsans/bfb2.tim iso/bfsans/bfb3.tim
+
+# Cuphead
+iso/cuphead/main.arc: iso/cuphead/idle.tim iso/cuphead/left.tim iso/cuphead/down.tim iso/cuphead/up.tim iso/cuphead/right.tim
+
+# Sans
+iso/sans/main.arc: iso/sans/idle0.tim iso/sans/idle1.tim iso/sans/idle2.tim iso/sans/idle3.tim iso/sans/left.tim iso/sans/down.tim iso/sans/up0.tim iso/sans/up1.tim iso/sans/right0.tim iso/sans/right1.tim iso/sans/idleb0.tim iso/sans/idleb1.tim iso/sans/leftb0.tim iso/sans/leftb1.tim iso/sans/downb.tim iso/sans/upb0.tim iso/sans/upb1.tim iso/sans/rightb0.tim iso/sans/rightb1.tim
+
+# Week 1
+iso/week1/back.arc: iso/week1/back0.tim iso/week1/back1.tim
+
+# Week 2
+iso/week2/back.arc: iso/week2/back0.tim iso/week2/back1.tim iso/week2/back2.tim
+
+# Week 3
+iso/week3/back.arc: iso/week3/back0.tim iso/week3/back1.tim iso/week3/back2.tim iso/week3/back3.tim iso/week3/back4.tim iso/week3/back5.tim
