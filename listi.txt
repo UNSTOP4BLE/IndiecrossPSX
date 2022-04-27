@@ -1,0 +1,89 @@
+Snake Eyes
+Scroll Speed: 1.6 (Easy)
+2.3 (Normal)
+2.6 (Hard)
+
+Technicolor Tussle
+Scroll Speed: 2.1 (Easy)
+2.5 (Normal and Hard)
+Maximum Score: 147350
+
+Knockout
+Scroll Speed: 2.4 (Easy)
+2.6 (Normal)
+2.8 (Hard)
+
+Whoopee
+Scroll Speed: 2.4 (Easy)
+2.5 (Normal)
+2.9 (Hard)
+
+Sansational
+Scroll Speed: 1.6 (Easy)
+1.7 (Normal)
+2.2 (Hard)
+
+Final Stretch
+Scroll Speed: 2.6
+Don't attack Sans during Sansational to unlock this song.
+
+Burning In Hell
+Scroll Speed: 3.2 (All Difficulties)
+Attack Sans at least 3 times in Sansational to unlock this song.
+
+Imminent Demise
+Scroll Speed: 2.4 (Easy)
+2.6 (Normal)
+2.7 (Hard)
+
+Terrible Sin
+Scroll Speed: 1.6 (Easy)
+2 (Normal)
+2.8 (Hard)
+
+Last Reel
+Scroll Speed: 2.5 (Easy)
+2.7 (Normal)
+2.9 (Hard)
+
+Nightmare Run
+Scroll Speed: 3
+This song is only available when you complete Last Reel on hard.
+
+//nightmare songs
+
+Devil’s Gambit
+Scroll Speed: 2.9
+
+Bad Time
+Scroll Speed: 3.5
+
+Despair
+Scroll Speed: 3
+
+//secreti songs
+
+Satanic Funkin
+Scroll Speed: 2.3 (Easy)
+2.5 (Normal)
+2.7 (Hard)
+
+Bad To The Bone
+Scroll Speed: 1.6 (Easy)
+2 (Normal and Hard)
+Do the Genocide Route to unlock this song.
+
+Bonedoggle
+Scroll Speed: 2.2 (Easy)
+2.4 (Normal)
+2.6 (Hard)
+Do the Pacifist Route to unlock this song.
+
+Ritual
+Scroll Speed: 2.3 (Easy)
+2.5 (Normal)
+2.7 (Hard)
+
+Freaky Machine
+Scroll Speed: 2.9 (Easy and Normal)
+3.1 (Hard)
