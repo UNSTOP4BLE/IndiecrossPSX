@@ -15,7 +15,6 @@ static const XA_TrackDef xa_tracks[] = {
 	{XA_Week1A, XA_LENGTH(8000)}, //XA_Fresh
 	//WEEK1B.XA
 	{XA_Week1B, XA_LENGTH(8667)}, //XA_Dadbattle
-	{XA_Week1B, XA_LENGTH(6800)}, //XA_Tutorial
 	//WEEK2A.XA
 	{XA_Week2A, XA_LENGTH(9923)}, //XA_Spookeez
 	{XA_Week2A, XA_LENGTH(8880)}, //XA_South
@@ -28,10 +27,10 @@ static const XA_TrackDef xa_tracks[] = {
 	{XA_Week3B, XA_LENGTH(10700)}, //XA_Blammed
 	//WEEK4A.XA
 	{XA_Week4A, XA_LENGTH(9300)},  //XA_SatinPanties
-	{XA_Week4A, XA_LENGTH(10300)}, //XA_High
+	{XA_Week4A, XA_LENGTH(9300)},  //XA_SatinPantiesEasy
 	//WEEK4B.XA
+	{XA_Week4A, XA_LENGTH(10300)}, //XA_High
 	{XA_Week4B, XA_LENGTH(12300)}, //XA_MILF
-	{XA_Week4B, XA_LENGTH(10300)}, //XA_Test
 	//WEEK5A.XA
 	{XA_Week5A, XA_LENGTH(11520)}, //XA_Cocoa
 	{XA_Week5A, XA_LENGTH(9401)},  //XA_Eggnog
@@ -42,6 +41,8 @@ static const XA_TrackDef xa_tracks[] = {
 	{XA_Week6A, XA_LENGTH(8928)}, //XA_Roses
 	//WEEK6B.XA
 	{XA_Week6B, XA_LENGTH(10298)}, //XA_Thorns
+	//WEEK7A.XA
+	{XA_Week7A, XA_LENGTH(10298)}, //XA_Ugh
 };
 
 static const char *xa_paths[] = {
@@ -58,6 +59,7 @@ static const char *xa_paths[] = {
 	"\\MUSIC\\WEEK5B.XA;1", //XA_Week5B
 	"\\MUSIC\\WEEK6A.XA;1", //XA_Week6A
 	"\\MUSIC\\WEEK6B.XA;1", //XA_Week6B
+	"\\MUSIC\\WEEK7A.XA;1", //XA_Week7A
 	NULL,
 };
 
@@ -76,7 +78,6 @@ static const XA_Mp3 xa_mp3s[] = {
 	{"fresh", true},   //XA_Fresh
 	//WEEK1B.XA
 	{"dadbattle", true}, //XA_Dadbattle
-	{"tutorial", false}, //XA_Tutorial
 	//WEEK2A.XA
 	{"spookeez", true}, //XA_Spookeez
 	{"south", true},    //XA_South
@@ -89,10 +90,10 @@ static const XA_Mp3 xa_mp3s[] = {
 	{"blammed", true}, //XA_Blammed
 	//WEEK4A.XA
 	{"satinpanties", true}, //XA_SatinPanties
-	{"high", true},         //XA_High
+	{"satinpantieseasy", true}, //XA_SatinPantiesEasy
 	//WEEK4B.XA
+	{"high", true},         //XA_High
 	{"milf", true}, //XA_MILF
-	{"test", true}, //XA_Test
 	//WEEK5A.XA
 	{"cocoa", true},  //XA_Cocoa
 	{"eggnog", true}, //XA_Eggnog
@@ -103,6 +104,8 @@ static const XA_Mp3 xa_mp3s[] = {
 	{"roses", true},  //XA_Roses
 	//WEEK6B.XA
 	{"thorns", true}, //XA_Thorns
+	//WEEK7A.XA
+	{"ugh", true}, //XA_Ugh
 	
 	{NULL, false}
 };

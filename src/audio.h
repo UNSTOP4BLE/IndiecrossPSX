@@ -25,6 +25,7 @@ typedef enum
 	XA_Week5B, //WEEK5B.XA
 	XA_Week6A, //WEEK6A.XA
 	XA_Week6B, //WEEK6B.XA
+	XA_Week7A, //WEEK7A.XA
 	
 	XA_Max,
 } XA_File;
@@ -39,7 +40,6 @@ typedef enum
 	XA_Fresh,   //Fresh
 	//WEEK1B.XA
 	XA_Dadbattle, //DadBattle
-	XA_Tutorial,  //Tutorial
 	//WEEK2A.XA
 	XA_Spookeez, //Spookeez
 	XA_South,    //South
@@ -52,10 +52,10 @@ typedef enum
 	XA_Blammed, //Blammed
 	//WEEK4A.XA
 	XA_SatinPanties, //Satin Panties
-	XA_High,         //High
+	XA_SatinPantiesEasy, //Satin Panties Easy
 	//WEEK4B.XA
+	XA_High,         //High
 	XA_MILF, //M.I.L.F
-	XA_Test, //Test
 	//WEEK5A.XA
 	XA_Cocoa,  //Cocoa
 	XA_Eggnog, //Eggnog
@@ -66,6 +66,9 @@ typedef enum
 	XA_Roses,  //Roses
 	//WEEK6B.XA
 	XA_Thorns, //Thorns
+	
+	//WEEK7A.XA
+	XA_Ugh, //Ugh
 	
 	XA_TrackMax,
 } XA_Track;

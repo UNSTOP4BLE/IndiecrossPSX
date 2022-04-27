@@ -49,24 +49,6 @@
 		
 		StageId_1_3, 0
 	},
-	{ //StageId_1_4 (Tutorial)
-		//Characters
-		{Char_BF_New, FIXED_DEC(60,1),  FIXED_DEC(100,1)},
-		{Char_cuphead_New,  FIXED_DEC(0,1),  FIXED_DEC(-15,1)},
-        {NULL},
-		{NULL},
-		
-		//Stage background
-		Back_Week1_New,
-		
-		//Song info
-		{FIXED_DEC(1,1),FIXED_DEC(1,1),FIXED_DEC(1,1)},
-		1, 4,
-		XA_Tutorial, 2,
-		
-		StageId_1_4, 0
-	},
-	
 	{ //StageId_2_1 (Spookeez)
 		//Characters
 		{Char_BF_New,      FIXED_DEC(56,1),   FIXED_DEC(85,1)},
@@ -222,24 +204,6 @@
 		
 		StageId_4_3, 0
 	},
-	{ //StageId_4_4 (Test)
-		//Characters
-		{Char_BF_New,     FIXED_DEC(105,1),  FIXED_DEC(100,1)},
-		{Char_cuphead_New, FIXED_DEC(-120,1),  FIXED_DEC(100,1)},
-		{NULL},
-        {NULL},
-		
-		//Stage background
-		Back_Week3_New,
-		
-		//Song info
-		{FIXED_DEC(16,10),FIXED_DEC(16,10),FIXED_DEC(16,10)},
-		4, 4,
-		XA_Test, 2,
-		
-		StageId_4_4, 0
-	},
-	
 	{ //StageId_5_1 (Cocoa)
 		//Characters
 		{Char_BF_New,  FIXED_DEC(90,1),   FIXED_DEC(85,1)},
@@ -342,4 +306,21 @@
 		XA_Thorns, 0,
 		
 		StageId_6_3, 0
+	},
+	{ //StageId_7_1 (Ugh)
+		//Characters
+		{Char_BF_New,  FIXED_DEC(52,1),  FIXED_DEC(50,1)},
+		{Char_cuphead_New, FIXED_DEC(-60,1),  FIXED_DEC(50,1)},
+        {NULL},
+		{NULL},
+		
+		//Stage background
+		Back_Week3_New,
+		
+		//Song info
+		{FIXED_DEC(11,10),FIXED_DEC(13,10),FIXED_DEC(15,10)},
+		7, 1,
+		XA_Ugh, 0,
+		
+		StageId_7_1, 0
 	},
