@@ -170,6 +170,23 @@
 		
 		StageId_4_2, STAGE_LOAD_FLAG
 	},
+    { //StageId_4_1easy (Satin Panties)
+		//Characters
+		{Char_BF_New,   FIXED_DEC(120,1),   FIXED_DEC(40,1)},
+		{Char_cuphead_New, FIXED_DEC(-120,1),  FIXED_DEC(100,1)},
+        {NULL},
+		{NULL},
+		
+		//Stage background
+		Back_Week3_New,
+		
+		//Song info
+		{FIXED_DEC(13,10),FIXED_DEC(16,10),FIXED_DEC(18,10)},
+		4, 1,
+		XA_SatinPantiesEasy, 0,
+		
+		StageId_4_2, STAGE_LOAD_FLAG
+	},
 	{ //StageId_4_2 (High)
 		//Characters
 		{Char_BF_New,   FIXED_DEC(120,1),   FIXED_DEC(40,1)},

@@ -52,6 +52,7 @@ typedef enum
 	StageId_3_3, //Blammed
 	
 	StageId_4_1, //Satin Panties
+    StageId_4_1easy, //Satin Panties easy
 	StageId_4_2, //High
 	StageId_4_3, //MILF
 	
